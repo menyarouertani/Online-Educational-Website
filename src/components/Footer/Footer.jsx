@@ -8,41 +8,17 @@ const footerQuickLinks = [
     display: "Home",
     url: "#",
   },
-  {
-    display: "About US",
-    url: "#",
-  },
-
-  {
-    display: "Courses",
-    url: "#",
-  },
-
-  {
-    display: "Blog",
-    url: "#",
-  },
+  
 ];
 
 const footerInfoLinks = [
+
   {
-    display: "Privacy Policy",
-    url: "#",
-  },
-  {
-    display: "Membership",
+    display: "preinscription",
     url: "#",
   },
 
-  {
-    display: "Purchases Guide",
-    url: "#",
-  },
-
-  {
-    display: "Terms of Service",
-    url: "#",
-  },
+ 
 ];
 
 const Footer = () => {
@@ -52,7 +28,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              <i class="ri-pantone-line"></i> TED University
             </h2>
 
             <div className="follows">
@@ -88,7 +64,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Explore</h6>
+            <h6 className="fw-bold">EXPLORE</h6>
             <ListGroup className="link__list">
               {footerQuickLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
@@ -100,7 +76,7 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Information</h6>
+            <h6 className="fw-bold">Préinscription</h6>
             <ListGroup className="link__list">
               {footerInfoLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
@@ -112,11 +88,12 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="6">
-            <h6 className="fw-bold">Get in Touch</h6>
+            <h6 className="fw-bold">Contact</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Email : contact@ted-university.com</p>
+            <p> Téléphone : +216 27 294 294 </p>
+            <p>Fax : +216 32 404 377</p>
+            <p> Adresse : 08, Rue des Minéraux, La Charguia I 2035 Tunis</p>
           </Col>
         </Row>
       </Container>

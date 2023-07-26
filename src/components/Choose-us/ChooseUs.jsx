@@ -14,15 +14,16 @@ const ChooseUs = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="choose__content">
-              <h2>Why Choose Us</h2>
+              <h2>Qui sommes nous </h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt mollitia nostrum harum eos praesentium odit a sed quod
-                aut fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reprehenderit omnis, culpa eligendi inventore perspiciatis
-                minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores cupiditate facilis provident quidem accusamus impedit
-                tenetur laboriosam debitis nisi eius!
+              TED University (ispTED) spécialisée dans l'IT propose des Licences et Masters dans les domaines les plus demandés sur le marché
+               tels que le coding, le big data, l’administration réseau et système, la cybersécurité, la virtualisation et le cloud computing.
+                Nos étudiants auront une chance unique en Tunisie: En plus du diplôme, ils pourront obtenir les certifications des éditeurs
+                 et constructeurs leaders à l'échelle internationale. Ils pourront également effectuer leurs stages chez les entreprises partenaires 
+                 de renommée pour garantir une carrière réussie. Notre mission est de réduire le gap entre les demandes du marché en terme de compétences 
+                 (hard et soft) et la formation académique proposée et ce à travers la pratique, la certification et l’immersion dans le monde de l'entreprise.
+
+
               </p>
             </div>
           </Col>

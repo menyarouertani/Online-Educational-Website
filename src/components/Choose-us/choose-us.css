@@ -6,8 +6,9 @@
   padding-right: 50px;
 }
 
-.choose__content h2 {
+.choose__content p  {
   font-weight: 600;
+  color:black
 }
 
 .choose__img {

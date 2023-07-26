@@ -1,27 +1,31 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
-
+import logo from "../../assests/images/logo-ted.png"
 const navLinks = [
   {
-    display: "Home",
+    display: "Ted university",
     url: "#",
   },
   {
-    display: "About",
+    display: "programmes",
     url: "#",
   },
 
   {
-    display: "Courses",
+    display: "admissions",
     url: "#",
   },
   {
-    display: "Pages",
+    display: "certifications",
     url: "#",
   },
   {
-    display: "Blog",
+    display: "references",
+    url: "#",
+  },
+  {
+    display: "login",
     url: "#",
   },
 ];
@@ -35,11 +39,14 @@ const Header = () => {
     <header className="header">
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
-          <div className="logo">
+          <div className="logo"> 
+          
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              
             </h2>
           </div>
+          <img src={logo} className="image-logo"/>
+
 
           <div className="nav d-flex align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
@@ -54,7 +61,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
+                <i class="ri-phone-line"></i> +216 27 294 294
               </p>
             </div>
           </div>
