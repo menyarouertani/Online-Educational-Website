@@ -11,16 +11,16 @@ const HeroSection = () => {
           <Col lg="6" md="6">
             <div className="hero__content">
               <h2 className="mb-4 hero__title">
-                Plus qu'un diplôme <br /> une reconaissance  <br /> internationale
+                inscriptions <br /> ouverte  <br /> 2023/2024
               </h2>
               <p className="mb-5">
                
               </p>
             </div>
-            <div className="search">
+            {/* <div className="search">
               <input type="text" placeholder="Search" />
               <button className="btn">Search</button>
-            </div>
+            </div> */}
           </Col>
 
           {/* <Col lg="6" md="6">

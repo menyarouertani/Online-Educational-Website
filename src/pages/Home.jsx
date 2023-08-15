@@ -14,13 +14,13 @@ import MyForm from "../components/subscription/form";
 import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
 import FormContainer from "../components/subscription/form";
-import CombinedLayout from "../components/layoutcomb/combinedlayout";
+// import CombinedLayout from "../components/layoutcomb/combinedlayout";
 
 const Home = () => {
   return (
     <Fragment>
       <Header />
-      < CombinedLayout/>
+      {/* < CombinedLayout/> */}
       <HeroSection />
       < FormContainer/> 
       <AboutUs /> 
