@@ -9,24 +9,21 @@ import Features from '../components/Feature-section/Features';
 import FreeCourse from '../components/Free-course-section/FreeCourse';
 
 import Testimonials from '../components/Testimonial/Testimonials';
-import MyForm from '../components/subscription/form';
 import Newsletter from '../components/Newsletter/Newsletter';
 import Footer from '../components/Footer/Footer';
 import FormContainer from '../components/subscription/form';
-import CombinedLayout from '../components/Hero-Section/HeroSection';
+// import CombinedLayout from '../components/layoutcomb/combinedlayout';
 
 const Home = () => {
 	return (
 		<Fragment>
 			<Header />
-			<CombinedLayout />
 			<HeroSection />
 			<FormContainer />
 			<AboutUs />
 			<Courses />
 			<ChooseUs />
 			<Features />
-			<FreeCourse />
 			<Testimonials />
 			<Newsletter />
 			<Footer />

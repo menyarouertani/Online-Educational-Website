@@ -11,7 +11,7 @@ const coursesData = [
     id: "01",
     title: "Workshop initiation developpement",
     
-    students: 12.5,
+  
     
     imgUrl: courseImg1,
   },
@@ -20,7 +20,7 @@ const coursesData = [
     id: "02",
     title: "Workshop initiation à la communication avec madame Afef Chaieb",
    
-    students: 12.5,
+    
     
     imgUrl: courseImg2,
   },
@@ -28,9 +28,7 @@ const coursesData = [
   {
     id: "03",
     title: "Workshop initiation à la communication avec madame Afef Chaieb",
-    
-    students: 12.5,
-    
+ 
     imgUrl: courseImg3,
   },
 ];

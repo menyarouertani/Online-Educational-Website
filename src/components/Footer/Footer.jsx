@@ -14,7 +14,7 @@ const footerQuickLinks = [
 const footerInfoLinks = [
 
   {
-    display: "preinscription",
+    display: "préinscription",
     url: "#",
   },
 

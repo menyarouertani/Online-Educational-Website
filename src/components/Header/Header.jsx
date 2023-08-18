@@ -1,12 +1,14 @@
 import React, { useRef, useState } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
-import logo from "../../assests/images/logo-ted.png";
+import logo from "../../assests/images/logo-ted.png"; 
 
 const navLinks = [
-  {
-    display: "Ted university",
-    url: "#",
+
+    {
+      display: "Ted university",
+      url: "#choose-us", // Link to the ChooseUs section
+
     dropdownItems: [
       { display: "Qui sommes nous?", url: "#" },
       { display: "Mission & Vision", url: "#" },

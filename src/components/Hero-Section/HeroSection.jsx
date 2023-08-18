@@ -11,7 +11,7 @@ const HeroSection = () => {
           <Col lg="6" md="6">
             <div className="hero__content">
               <h2 className="mb-4 hero__title">
-                inscriptions <br /> ouverte  <br /> 2023/2024
+                inscriptions <br /> ouvertes  <br /> 2023/2024
               </h2>
               <p className="mb-5">
                
